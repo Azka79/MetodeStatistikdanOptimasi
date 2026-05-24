@@ -1,7 +1,7 @@
 %% OPTIMAL SCHEDULED POWER FLOW FOR PV-WIND-DIESEL-BATTERY HYBRID SYSTEM
 % Implementation of Kusakana (2015) paper using fmincon
 % Continuous operation control strategy for 24 hours (N=48 sampling intervals)
-clear all; close all; clc;
+clear; close all; clc;
 
 %% 1. SCENARIO SELECTION
 % Choose your simulation case: 'summer' or 'winter'
